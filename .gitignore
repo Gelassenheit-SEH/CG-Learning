@@ -1,0 +1,14 @@
+# Obsidian local state
+.obsidian/workspace*.json
+.trash/
+
+# Third-party theme/plugin files
+.obsidian/themes/
+.obsidian/plugins/live-wallpaper/
+.obsidian/plugins/obsidian-style-settings/main.js
+.obsidian/plugins/obsidian-style-settings/manifest.json
+.obsidian/plugins/obsidian-style-settings/styles.css
+
+# Python cache
+__pycache__/
+*.py[cod]

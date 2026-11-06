@@ -1,0 +1,12 @@
+{
+  "textFontFamily": "",
+  "monospaceFontFamily": "Century,Courier Std",
+  "interfaceFontFamily": "",
+  "cssTheme": "Blue Topaz",
+  "baseFontSizeAction": false,
+  "theme": "system",
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "readability-and-cyan-purple-folders"
+  ]
+}

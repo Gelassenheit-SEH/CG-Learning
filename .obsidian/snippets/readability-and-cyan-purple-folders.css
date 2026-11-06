@@ -1,0 +1,52 @@
+/* Keep the wallpaper subtle while restoring full-strength note content. */
+body.live-wallpaper-active.theme-light
+  .workspace-leaf-content[data-type="markdown"] .view-content {
+  background-color: rgb(247 251 254 / 92%) !important;
+}
+
+body.live-wallpaper-active.theme-dark
+  .workspace-leaf-content[data-type="markdown"] .view-content {
+  background-color: rgb(22 35 44 / 92%) !important;
+}
+
+.workspace-leaf-content[data-type="markdown"]
+  :is(.cm-content, .markdown-preview-sizer, img, svg, canvas) {
+  opacity: 1 !important;
+}
+
+.workspace-leaf-content[data-type="markdown"] img {
+  filter: none !important;
+}
+
+/* Blue Topaz folder palette: cyan through blue to purple. */
+body.theme-light.bt-toggle-colorful-folder.folder-colorful-six {
+  --Fold0: #1597a3;
+  --Fold1: #7559b8;
+  --Fold2: #238fae;
+  --Fold3: #347fc1;
+  --Fold4: #4a72c5;
+  --Fold5: #6067c3;
+  --Fold6: #6e61c0;
+  --Fold7: #7c5cbb;
+  --Fold8: #8758b4;
+  --Fold9: #9055ac;
+  --FoldA: #9653a3;
+  --FoldB: #99529a;
+  --FoldText: #243b4a;
+}
+
+body.theme-dark.bt-toggle-colorful-folder.folder-colorful-six {
+  --Fold0: #55c9cd;
+  --Fold1: #aa83e8;
+  --Fold2: #5cc1dc;
+  --Fold3: #66b5e8;
+  --Fold4: #75a7ee;
+  --Fold5: #8699ee;
+  --Fold6: #968bea;
+  --Fold7: #a17fe2;
+  --Fold8: #aa75d8;
+  --Fold9: #b16dcc;
+  --FoldA: #b667bf;
+  --FoldB: #b963b2;
+  --FoldText: #e4f1f8;
+}
