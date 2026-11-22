@@ -1,13 +1,13 @@
 # CG-Learning
 
-记录计算机图形学的学习笔记、课程作业与代码实现。
+Record my study notes, course assignments and code implementations in Computer Graphics learning.
 
-## 内容
+## Contents
 
-- [学习笔记](notes/计图第一次作业笔记.md)
-- [第一次作业代码](code/first_assignment_code)
+- [study notes](notes/计图第一次作业笔记.md)
+- [codes for the first assignment](code/first_assignment_code)
 
-## 项目结构
+## Project Structure
 
-- `notes/`：Markdown 学习笔记及图片
-- `code/`：作业与实验代码
+- `notes/`: Study notes in Markdown and associated pics.
+- `code/`: Assignments and codes
